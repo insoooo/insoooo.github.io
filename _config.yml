@@ -12,7 +12,7 @@ name: "Insu's Dev Blog"
 description: "Game Server Programming / Machine Learning / Data Analysis"
 
 short_url: 'jekyller.github.io/jasper/'
-google_analytics: UA-69281367-1
+google_analytics: UA-117905522-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
