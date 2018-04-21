@@ -11,17 +11,16 @@ current: home
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
 <!-- The big featured header  -->
-<header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+<header class="main-header">
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="" /></a>{% endif %}
         {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            <!-- <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a> -->
         {% endif %}
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h2 class="page-title"> <a href="{{ site.baseurl }}"> <font color="white"> {{ site.name }} </a></h2> </font>
+            <a class="page-title" href="/"> {{ site.name }} </a>
             <h2 class="page-description">{{ site.description }}</h2>
         </div>
     </div>

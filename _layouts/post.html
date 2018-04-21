@@ -11,15 +11,11 @@ class: 'post-template'
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
 
-<header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
-
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title"> <a href="{{ site.baseurl }}"> {{ site.name }} </a></h1>
-            <h2 class="page-description">{{ site.description }}</h2>
-        </div>
-    </div>
+<header class="main-header">
+      <div class="main-header-content inner">
+          <a class="page-title" href="../"> {{ site.name }} </a>
+          <h2 class="page-description">{{ site.description }}</h2>
+      </div>
 </header>
 
 <main class="content" role="main">
@@ -27,7 +23,7 @@ class: 'post-template'
     <article class="{{ page.subclass }}">
 
         <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h2 class="post-title">{{ page.title }}</h2>
             <section class="post-meta">
             <!-- <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.author }}</a> -->
 
