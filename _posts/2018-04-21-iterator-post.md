@@ -4,7 +4,7 @@ cover: 'assets/images/cover4.jpg'
 navigation: True
 title: Vector Iterator와 List Iterator의 차이점
 date: 2018-04-21 09:55
-tags: C++ Iterator
+tags: C++
 subclass: 'post tag-speeches'
 logo: 'assets/images/ghost.png'
 author: song

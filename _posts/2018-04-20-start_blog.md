@@ -5,10 +5,12 @@ navigation: True
 title: 블로그 시작
 tags: blog
 date: 2018-04-20 00:00
-subclass: 'post tag-speeches'
-logo: 'assets/images/ghost.png'
+subclass: 'post'
 author: song
 categories: song
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 어렸을 땐(물론 지금도 어리지만, 더 어렸을 때…) 블로그를 하면서 모르는 사람들과 소통하고, 내가 아는 정보들을 공유한다는게 참 좋았다.

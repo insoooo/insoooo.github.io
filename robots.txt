@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://insoooo.github.io/sitemap.xml	
