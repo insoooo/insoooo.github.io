@@ -595,7 +595,7 @@ body.nav-opened .site-wrapper {
 /* Big cover image on the home page */
 .main-header {
     position: relative;
-    height: 7vh;
+    height: 9vh;
     margin-bottom: 5rem;
     text-align: left;
     background: #222 no-repeat center center;
