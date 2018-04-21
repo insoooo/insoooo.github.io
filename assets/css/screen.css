@@ -25,10 +25,8 @@
 /* ==========================================================================
    0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
-@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
-@import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
-@import url('https://fonts.googleapis.com/earlyaccess/kopubbatang.css');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Kalam:300|Ubuntu');
 
 html {
@@ -190,11 +188,11 @@ body {
     height: 100%;
     max-height: 100%;
     /* font-family: "Merriweather", serif; */
-    font-family: 'kopub batang', serif;
+    font-family: 'Nanum Gothic Coding';
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.75em;
-    color: #3A4145;
+    color: black;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
