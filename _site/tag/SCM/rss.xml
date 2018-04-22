@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jekyller.github.io/jasper/</title>
+   
+   <link>http://localhost:4000</link>
+   <description>Game Server Programming / Machine Learning / Data Analysis</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>SVN에서 Git으로 넘어간 소감</title>
+	  <link>//svn-to-git</link>
+	  <author></author>
+	  <pubDate>2018-04-22T00:00:00+09:00</pubDate>
+	  <guid>//svn-to-git</guid>
+	  <description><![CDATA[
+	     <p>우리 회사에서는 2012년부터 쭉 Tortoise SVN을 사용하고 있었다.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
